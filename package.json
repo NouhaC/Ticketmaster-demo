@@ -20,7 +20,9 @@
   "scripts": {
     "dev": "now dev",
     "now-build": "next build",
-    "deploy": "now"
+    "build: "next build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "repository": {
     "type": "git",

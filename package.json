@@ -18,9 +18,9 @@
     "react-dom": "^16.11.0"
   },
   "scripts": {
-    "build": "next build",
-    "export": "next export",
-    "deploy": "npm run build && npm run export"
+    "dev": "now dev",
+    "now-build": "next build",
+    "deploy": "now"
   },
   "repository": {
     "type": "git",
